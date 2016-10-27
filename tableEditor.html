@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>open加载器</title> 
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="js/ht.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>  
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="header">
+    	open加载器
+    </div>
+    <div class="title_name">
+    	<div class="titie_btn commit">
+    		生成代码
+    	</div>
+    </div>
+    <!-- 内容 -->
+    <div class="wrap">
+        <!-- 编辑代码 -->
+    	<div class="body_left">
+			<h3>编辑代码：</h3>
+			<div class="wrap_left">
+        <span class="switch active">返回参数</span><span class="switch">返回示例</span>
+        <div class="return">
+          <div class="returnParameter"> 
+             <table border="0" cellpadding="0" cellspacing="0" class="details_table">
+                 <thead>
+                   <tr>
+                     <th width="20%">参数名称</th>
+                     <th width="12%">参数类型</th>
+                     <th width="10%">是否必填</th>
+                     <th width="10%">最大长度</th>
+                     <th width="25%">参数说明</th>
+                     <th width="25%">示例值</th>
+                   </tr>
+                 </thead>
+                 <tbody>
+                    <tr>
+                      <td>result</td>
+                      <td>String</td>
+                      <td>是</td>
+                      <td>32</td>
+                      <td class="textleft">success表示成功，fail表示失败，error表示异常</td>
+                      <td>success</td>
+                    </tr> 
+                  </tbody>
+              </table>
+          </div>
+          <div class="inputBox">
+              <ul>
+                  <li><input text="text" value="12"></li>
+                  <li><input text="text" value="String"></li>
+                  <li><input text="text" value="是"></li>
+                  <li><input text="text" value="32"></li>
+                  <li><input text="text" value="success表示成功，fail表示失败，error表示异常"></li>
+                  <li><input text="text" value="success"></li>
+                  <li><span class="add">添加</span><span class="delect">删除</span></li>
+              </ul>
+          </div>
+          <div class="titie_btn push">插入表格</div>
+        </div>
+        <div class="jsonEg">
+          <div class="jsonEg_table">
+            <table class="tab_table" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                 <td>
+                   1
+                 </td>
+                 <td>
+                 {
+                 </td>
+              </tr>
+              <tr>
+                 <td>
+                   2
+                 </td>
+                 <td class="padding20">
+                "customerNum": "10001114513826266541863",
+                 </td>
+              </tr>
+               <tr>
+                 <td>
+                   3
+                 </td>
+                 <td class="padding20">
+                "shopNum": "10001214653797401143127",
+                 </td>
+              </tr>
+              <tr>
+                 <td>
+                   4
+                 </td>
+                 <td class="padding20">
+                 "machineNum": "10011014593073262477203",
+                 </td>
+              </tr> 
+              <tr>
+                 <td>
+                   11
+                 </td>
+                 <td>
+               }
+                 </td>
+              </tr>
+            </table>
+          </div>
+          <div class="inputBox2">
+              <div><span class="add2">添加</span><span class="delect2">删除
+              </span></div>
+              <ul>
+                  <li><input text="text" value="1"></li>
+                  <li><input text="text" value="{"></li>
+              </ul>
+          </div>
+          <div class="titie_btn push2">插入表格</div>
+        </div>
+              
+			</div>
+		</div>
+        <!-- 查询结果 -->
+		<div class="body_right">
+			<h3>查询结果：</h3>
+			<div class="wrap_right">
+          <textarea>
+            
+          </textarea>
+			</div>
+		</div>
+		<div class="footer"></div>
+    </div>
+</body>
+</html>
